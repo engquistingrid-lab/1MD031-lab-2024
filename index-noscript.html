@@ -1,0 +1,99 @@
+
+<!DOCTYPE HTML> <!--http://localhost:5173/-->
+<html lang="en">
+   <head> <!-- Your comment goes here -->
+       <title>Page title shown in window title</title>
+       <meta charset="utf-8"/>
+       <link rel="reset" type="text/css" href="public/css/resetfile.css"> 
+       <link rel="stylesheet" type="text/css" href="public/css/style.css">
+   </head>
+   <body>
+        <header> 
+            <h1>Välkommen till Smashy Burgers</h1>
+            <img src="public/img/header.jpeg" class="headerimage" style="width:100%"> 
+        </header>
+        <main> 
+                <section id="meny"> 
+                    <h2 class="menystart"> Välj burgare </h2>
+                    <h3 class="menystart">Välj vilken burgare du vill beställa</h3>
+                        <div class= "wrapper">  
+                            <div class="box a"> 
+                                <h3> THE CLASSIC</h3>
+                                    <img src="public/img/theclassic.jpg" style="width:150px; height:auto;">
+                                <ul>
+                                    <li>svenskt nötkött</li>
+                                    <li>cheddar (innehåller <span class="allergen">laktos</span>)</li>
+                                    <li>brioche bröd (innehåller <span class="allergen">gluten</span>)</li>
+                                    <li>carameliserad lök</li>
+                                </ul>
+                            </div>
+                            <div class="box b">
+                                <h3> THE SPICY</h3>
+                                    <img src="public/img/thespicy.webp" style="width:150px; height:auto;">
+                                <ul>
+                                    <li>svenskt nötkött</li>
+                                    <li>cheddar (innehåller <span class="allergen">laktos</span>)</li>
+                                    <li>brioche bröd (innehåller <span class="allergen">gluten</span>)</li>
+                                    <li>jalapenos</li>
+                                </ul>
+                            </div>
+                            <div class="box c">
+                                <h3> THE VEGGIE</h3>
+                                    <img src="public/img/theveggie.jpg" style="width:150px; height:auto;">
+                                <ul>
+                                    <li>portabellosvamp</li>
+                                    <li>hamburgerdressing (innehåller <span class="allergen">laktos</span>)</li>
+                                    <li>brioche bröd (innehåller <span class="allergen">gluten</span>)</li>
+                                    <li>pesto-guacamole</li>
+                                </ul>
+                            </div>
+                        </div>
+                            
+                </section>
+                <section id="kundinfo">
+                    
+                    <h2 >Kundinformation </h2>
+                    <h3 >Kön</h3>
+                    <form>
+                        <label><input type="radio" name="kön" value="Kvinna"> Kvinna</label>
+                        <label><input type="radio" name="kön" value="Man"> Man</label>
+                        <label><input type="radio" name="kön" value="Vill inte ange"> Vill inte ange</label>
+                    </form>
+                    <h3 > Leveransinformation</h3>
+                        <p>
+                            <label for="Fullständigt namn">Fullständigt namn</label><br>
+                            <input type="text" id="Fullständigt namn" name="fn" required="required" placeholder="För- och efternamn">
+                        </p>
+                        <p>
+                            <label for="Email-adress">E-mail</label><br>
+                            <input type="text" id="Email-adress" name="ea" required="required" placeholder="Emailadress">
+                        </p>
+                        <p>
+                            <label for="Gata">Gata</label><br>
+                            <input type="text" id="Gata" name="g" required="required" placeholder="Gatu namn">
+                        </p>
+                        <p>
+                            <label for="Hus">Hus</label><br>
+                            <input type="text" id="Hus" name="h" required="required" placeholder="Husnummer">
+                        </p>
+                        <p>
+                            <label for="betalningsmetod">Betalningsmetod</label><be>
+                            <select id="betalningsmetod" name="btnm">
+                                <option>Kontokort</option selected="selected">
+                                <option>Kreditkort</option>
+                                <option>Swish</option>
+                            </select>
+                        </p>
+                       
+                </section>
+                <button type="submit" class="knapp">
+                    <!--<img src="public/img/image_button.png">-->
+                    Skicka min beställning
+                </button>
+        </main>
+        <hr>
+        <footer>
+            End notes
+        </footer
+   </body>
+</html>
