@@ -1,21 +1,26 @@
+
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "THE CLASSIC", 
+    "kCal": 50, 
+    "kött": "svenskt nötkött",
+    "url": "img/theclassic.jpg",
+    "laktos": true, 
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "THE SPICY", 
+    "kCal": 50, 
+    "kött": "svenskt nötkött",
+    "url": "img/thespicy.webp",
+    "laktos": true, 
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+    "name": "THE VEGGIE", 
+    "kCal": 50, 
+    "svamp": "Portabello svamp",
+    "url": "img/theveggie.jpg",
+    "laktos": true, 
+    "gluten": true
+}
+]
