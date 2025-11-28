@@ -4,8 +4,8 @@
     <h3> {{ burger.name }}</h3>
         <img v-bind:src="burger.url" style="width:150px; height:auto;">
             <ul>
-            <li v-if = "burger.laktos">laktos</li>
-            <li v-if = "burger.gluten">gluten</li>
+            <li v-if = "burger.laktos" class="allergen">laktos</li>
+            <li v-if = "burger.gluten" class="allergen">gluten</li>
             <li v-if = "burger.kött">svenskt nötkött</li>
             <li v-if = "burger.svamp">portabellosvamp</li>
             <li> kCal: {{burger.kCal}} </li>
